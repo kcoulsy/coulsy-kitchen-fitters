@@ -1,0 +1,7 @@
+                <div class="social">
+                    <div><a href="<?php echo $twitter_account; ?>" target="_blank" ><img src="./images/social-icons/twitter.gif" width="30" height="30" alt="twitter for rob coulson web development in halifax calderdale" /></a></div>
+                    <div><a href="<?php echo $linkedin_account; ?>" target="_blank" ><img src="./images/social-icons/linkedin.gif" width="30" height="30" alt="linkedin for rob coulson web development in halifax calderdale" /></a></div>
+                    <div><a href="<?php echo $facebook_account; ?>" target="_blank" ><img src="./images/social-icons/facebook.gif" width="30" height="30" alt="facebook for rob coulson web development in halifax calderdale" /></a></div>
+                    <div><a href="<?php echo $youtube_account; ?>" target="_blank" ><img src="./images/social-icons/youtube.gif" width="30" height="30" alt="youtube for rob coulson web development in halifax calderdale" /></a></div>
+                    <div><a href="<?php echo $blogger_account; ?>" target="_blank" ><img src="./images/social-icons/blogger.gif" width="30" height="30" alt="blogger feed for rob coulson personal blog" /></a></div>
+                </div><!--social-->

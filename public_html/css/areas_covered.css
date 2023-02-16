@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*This page is just the style for the areas covered page*/
+
+/*This is the split for the areas covered page*/
+.areas_covered_left{
+	float: left;
+	width: 480px;
+	padding-left: 20px;
+	}
+.areas_covered_right{
+	float: left;
+	width: 480px;
+	padding-left: 20px;
+	}

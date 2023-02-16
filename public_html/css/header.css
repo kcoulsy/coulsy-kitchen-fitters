@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/****************/	
+/*header section*/
+.headerTopWrapper {
+	width: 100%;
+	margin: 0px;
+	display: block;
+	}
+.headerTop {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	display: block;
+	}
+	
+/********************/	
+/*menu right section*/
+#menuRight {
+	float: right;
+	display: block;
+	position: absolute;
+	top: 30px;
+	right: 20px;
+	}
+#menuRight ul {
+	display: block;
+	text-align: left;
+	margin:0px;
+	padding-top: 40px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	}
+#menuRight li {
+	display: inline;
+	}
+#menuRight li a{
+	font-size: 20px;
+	color: #FFF;
+	text-decoration: none;
+	text-align: left;
+	-moz-transition: color .7s ease-in;
+	-o-transition: color .7s ease-in;
+	-webkit-transition: color .7s ease-in;
+	transition: color .7s ease-in;
+	padding-left: 20px;
+	font-weight: lighter;
+	}
+#menuRight li a:hover{
+	color: #1288D5;
+	-moz-transition: color 0.01s;
+	-o-transition: color 0.01s;
+	-webkit-transition: color 0.01s;
+	transition: color 0.01s;
+	}
+#menuRight li a.current{
+	color: #1288D5;
+	-moz-transition: color 0.01s;
+	-o-transition: color 0.01s;
+	-webkit-transition: color 0.01s;
+	transition: color 0.01s;
+	}
+/*end/menu right section*/
+/************************/
+
+/*****************/	
+/*topMenu section*/
+/*****************/
+
+/*.topMenu {
+	float: right;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	margin-right: 10px;
+}
+
+	.topMenu ul {
+	font-size: 12px;
+	list-style:none;
+	margin:0;
+	padding:0;
+	float: right;
+	}
+	
+	.topMenu li {
+	display: inline;
+	float: left;
+		}
+	
+		.topMenu li a{
+	color: rgba(51,51,51,1);
+	font-weight: bold;
+			}
+		
+		.topMenu li a:hover{
+	color: rgba(214,18,17,1);
+			}
+*/
+/******************/	
+/*test/topMenu section*/
+/******************/
+
+	/*	.menu ul li:hover a{
+			background: #2580a2 url("images/hover.gif") bottom center no-repeat;
+			color:#FFFFFF;
+			text-decoration:none;*/
+		
+		
+/***************************/	
+/*this is the drop down box*/
+/***************************/	
+/*first tier*/
+#menuRight li ul{
+	display:none;
+	position:absolute;
+	z-index:200;
+	color: rgba(255,255,255,1);
+	background-color: rgba(102,102,102,.6);
+	border-radius: 6px;
+	margin-left: 250px;
+	}
+	
+#menuRight li:hover ul{
+	display:block;
+	}
+	
+/*link*/
+#menuRight li li {
+	display:block;
+	float:none;
+	padding:0px;
+	}
+	
+#menuRight li:hover li a{
+	background:none;
+	}
+
+#menuRight li ul a{
+	display:block;
+	font-size:14px;
+	padding:6px;
+	margin: 4px;
+	text-align:left;
+	color: rgba(255,255,255,1);
+}
+
+#menuRight li ul a:hover, .menu li ul li:hover a{
+	background:rgba(158,177,58,.8);
+	border:0;
+	color:#ffffff;
+	text-decoration:none;
+}
+/*end/first tier*/
+
+/*second tier*/	
+/*second tier*/
+
+/*******************************/	
+/*end/this is the drop down box*/
+/*******************************/
+		
+/**************************/	
+/*end test/topMenu section*/
+/**************************/
+
+/*********************/	
+/*end/topMenu section*/
+/*********************/
+
+	
+/*****************************/
+/*This for the middle section*/
+.headerMiddleWrapper {
+	width: 100%;
+	height: 131px;
+	background-image: url(../images/header_bg.png);
+	background-repeat: repeat-x;
+}
+.headerMiddle {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	position: relative;
+	}
+	
+/*main logo left side*/	
+#logo {
+	position: absolute;
+	display: block;
+	width: 600px;
+	top: 56px;
+	left: 0;
+	font-size: 50px;
+	color: #FFFFFF;
+	}
+#logo a{
+	color: #FFFFFF;
+	text-decoration: none;
+	}
+/*end/This for the middle section*/
+/*********************************/
+
+/*end/header section*/
+/********************/

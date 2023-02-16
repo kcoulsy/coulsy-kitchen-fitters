@@ -1,0 +1,180 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************/		
+/*contact_form_us section*/
+#contact_L{
+	margin: 0px;
+	padding-top: 40px;
+	width: 400px;
+	float: left;
+	}
+#contact_R{
+	margin: 0px;
+	padding-top: 40px;
+	padding-left: 20px;
+	float: left;
+	width: 500px;
+	}
+#contact_R ul{
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	}
+	
+	/*This is the styling for the contact us form (form only) on the main contact page*/
+#contact_form_us_wrapper{
+	/* [disabled]background-color: rgba(158,177,58,1); */
+	display:block;
+	width:290px;
+	padding: 10px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 24px;
+	text-align: left;
+	height: 530px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-border-radius: 4px;
+	}
+#contact_form_us_wrapper h3{
+	display:block;
+	padding: 0px;
+	font-size: 20px;
+	margin-top: 1px;
+	margin-right: 1px;
+	margin-bottom: 14px;
+	margin-left: 6px;
+	}
+	
+#contact_form_us{
+	clear:both;
+	margin:0;
+	}
+#contact_form_us p{
+	clear:both;
+	display:block;
+	position:relative;
+	text-align: left;
+	margin: 1px;
+	padding: 1px;
+	}
+	
+#contact_form_us label{
+	display:block;
+	float:left;
+	clear:both;
+	font-size:12px;
+	width:270px;
+	line-height:16px;
+	text-align: left;
+	padding-top: 4;
+	padding-right: 6px;
+	padding-bottom: 4;
+	padding-left: 6px;
+	}
+	
+#contact_form_us .field,
+#contact_form_us .submitter,
+#contact_form_us .textarea{
+	border: 3px solid rgba(158,177,58,1);
+	color:#333333;
+	-moz-border-radius: 8px 8px 0px 8px;
+	-webkit-border-radius: 8px 8px 0px 8px;
+	-border-radius: 8px 8px 0px 8px;
+	}
+	
+	#contact_form_us .field{
+	font-size:14px;
+	line-height: 20px;
+	display:block;
+	float:left;
+	padding:2px;
+	width:280px;
+	height: 24px;
+	text-align: left;
+	margin-bottom: 6px;
+		}
+		
+		#contact_form_us .field:hover{
+			}
+		#contact_form_us .field:focus{
+	background-color: #E1E1E1;
+			}
+		
+	#contact_form_us .textarea{
+	font-size:14px;
+	line-height: 20px;
+	display:block;
+	float:left;
+	padding:2px;
+	width:280px;
+	height:120px;
+	text-align: left;
+	margin-bottom: 10px;
+		}
+	
+		#contact_form_us .textarea:hover{
+			}
+		#contact_form_us .textarea:focus{
+	background-color: #E1E1E1;
+			}
+	
+#contact_form_us #check{
+	width:60px;
+	text-align:center;
+	}
+	
+#contact_form_us p .submitter{
+	color:#999;
+	display:block;
+	float:right;
+	font-weight:bold;
+	font-size:14px;
+	line-height: 20px;
+	text-align:center;
+	text-transform:uppercase;
+	width:102px;
+	height:30px;
+	margin-top: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-border-radius: 4px;
+	}
+	
+	#contact_form_us .submitter:hover{
+	color:#FFF;
+	background-color: rgba(158,177,58,1);
+		}
+	
+#contact_form_us label.error{
+	color:#C00;
+	font-size:11px;
+	padding:0;
+	width: 330px;
+	position:absolute;
+	right:0;
+	top:5px;
+	text-align:right;
+	}
+	
+#contact_form_us .messager{
+	/* [disabled]height:190px; */
+	}
+	
+#contact_form_us .messager label.error {
+	font-size:11px;
+	padding:0;
+	width: 330px;
+	}		
+	
+/*****************************/		
+/*end/contact_form_us section*/
+/*****************************/
